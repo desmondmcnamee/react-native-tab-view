@@ -128,8 +128,7 @@ export default class TabViewAnimated<T: *> extends React.Component<
     const { height, width } = e.nativeEvent.layout;
 
     if (
-      this.state.layout.width === width &&
-      this.state.layout.height === height
+      this.state.layout.width === width
     ) {
       return;
     }
